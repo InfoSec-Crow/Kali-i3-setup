@@ -14,6 +14,7 @@ sudo apt update sudo apt upgrade -y
 ```
 sudo apt upgrade -y
 ```
+Set share folder Downloads <br>
 Then run the setup script:
 ```
 ./setup.sh
