@@ -38,9 +38,9 @@ cp .config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 cp .config/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
 cp .config/compton/compton.conf ~/.config/compton/compton.conf
 cp .config/rofi/config ~/.config/rofi/config
-cp .fehbg ~/.fehbg
+
 cp .config/i3/clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
-cp -r .wallpaper ~/.wallpaper 
+cp -r .wallpaper ~/Pictures/.wallpaper 
 
 echo "Done! Grab some wallpaper and run pywal -i filename to set your color scheme. To have the wallpaper set on every boot edit ~.fehbg"
 echo "After reboot: Select i3 on login, run lxappearance and select arc-dark"
