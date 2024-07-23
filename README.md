@@ -1,5 +1,4 @@
-# -kali-i3
-My changes from https://github.com/xct/kali-clean
+# Kali Linux with i3 window manager
 
 First Update and Upgrade Kali Linux:
 ```
