@@ -1,5 +1,12 @@
 # Kali Linux with i3 window manager
+## German Keyboard
+```
+sudo dpkg-reconfigure keyboard-configuration
+```
+→ 105 Keys <br>
+Now reboot
 
+## Setup
 First Update and Upgrade Kali Linux:
 ```
 sudo apt update sudo apt upgrade -y
