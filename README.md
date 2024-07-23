@@ -19,7 +19,9 @@ Then run the setup script:
 ```
 ./setup.sh
 ```
-After the script is done reboot and select i3 (top right corner) on the login screen. Then open a terminal (`ctrl+return`) run `lxappearance` and select ark-dark theme and change the icons to papyrus.
+After the script is done reboot and select i3 (top right corner) on the login screen. Then open a terminal (`ctrl+return`) run `lxappearance` and select ark-dark theme and change the icons to papyrus. <br>
+ <br>
+ Check tools folder for tool installs 
 
 ---
 Orginal from: https://github.com/xct/kali-clean
