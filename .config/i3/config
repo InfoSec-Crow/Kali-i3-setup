@@ -164,5 +164,5 @@ bindsym $mod+Ctrl+Shift+Left resize grow width 10 px or 10 ppt
 bindsym $mod+P exec flameshot gui
 
 # Wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/samurai.jpg
-exec --no-startup-id feh --bg-fill ~/Pictures/samurai.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/.wallpaper/samurai.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/.wallpaper/samurai.jpg
