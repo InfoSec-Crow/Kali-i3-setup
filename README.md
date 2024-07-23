@@ -9,7 +9,7 @@ Now reboot
 ## Setup
 First Update and Upgrade Kali Linux:
 ```
-sudo apt update sudo apt upgrade -y
+sudo apt update
 ```
 ```
 sudo apt upgrade -y
