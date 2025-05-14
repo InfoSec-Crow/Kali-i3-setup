@@ -35,7 +35,7 @@ ninja
 sudo ninja install
 cd ../..
 
-pip3 install pywal
+pip3 install pywal --break-system-packages
 
 mkdir -p ~/.tmux
 mkdir -p ~/.tmux/plugins
