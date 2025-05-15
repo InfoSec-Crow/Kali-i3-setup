@@ -19,5 +19,5 @@ sh /opt/CTF-Stuff/symlink.sh
 # Folders
 chown kali:kali /opt 
 chown kali:kali /etc/hosts
-
+rm -r /home/kali/Music /home/kali/Pictures /home/kali/Templates /home/kali/Videos /home/kali/Public
 
