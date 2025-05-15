@@ -50,6 +50,5 @@ cp .config/i3/clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
 cp -r .wallpaper ~/Pictures/.wallpaper 
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 echo "SETUP FINISHED"
