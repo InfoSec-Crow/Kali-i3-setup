@@ -23,17 +23,23 @@ def run_scripts(script_dir):
                 output = ""
                 for line in process.stdout:
                     print(line, end='')
+                    install_log.write(line)
+                    install_log.flush()
                     output += line
 
                 process.wait()
                 
                 if process.returncode == 0:
                     install_log.write(f"[+] {file}\n")
+                    install_log.flush()
                 else:
                     install_log.write(f"[-] {file}\n")
+                    install_log.flush()
                     error_log.write(f"[-] {file}\n{output}\n")
+                    error_log.flush()
         
         install_log.write("*** Install finished ***\n")
+        install_log.flush()
 
     print(f"\nDone. See {INSTALL_LOG} and {ERROR_LOG}")
 
