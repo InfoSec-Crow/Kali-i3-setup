@@ -49,13 +49,6 @@ cp .config/rofi/config ~/.config/rofi/config
 cp .config/i3/clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
 cp -r .wallpaper ~/Pictures/.wallpaper 
 
-# tmux plugins
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-git clone https://github.com/tmux-plugins/tmux-sensible ~/.tmux/plugins/tmux-sensible
-git clone https://github.com/tmux-plugins/tmux-logging ~/.tmux/plugins/tmux-logging
-git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect
-git clone https://github.com/tmux-plugins/tmux-yank ~/.tmux/plugins/tmux-yank
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
