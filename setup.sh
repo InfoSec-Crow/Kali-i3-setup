@@ -60,11 +60,7 @@ git clone https://github.com/tmux-plugins/tmux-logging ~/.tmux/plugins/tmux-logg
 git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect
 git clone https://github.com/tmux-plugins/tmux-yank ~/.tmux/plugins/tmux-yank
 
-# Misc
-chown kali:kali /opt 
-chown kali:kali /etc/hosts
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-curl -LsSf https://astral.sh/uv/install.sh | sh
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 echo "SETUP FINISHED"
