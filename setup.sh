@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update
+
 # fix copy in vm
 sudo cp .config/i3/copy_fix.sh /bin/copy_fix
 sudo chmod +x /bin/copy_fix
