@@ -9,7 +9,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Share Folder
 sudo mkdir /mnt/hgfs
-echo 'vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other,_netdev   0   0' | sudo tee -a /etc/fstab
+sudo sh -c "echo 'vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other,_netdev   0   0' >> /etc/fstab"
 
 # CTF Repo
 cd /opt
