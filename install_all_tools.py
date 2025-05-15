@@ -32,6 +32,8 @@ def run_scripts(script_dir):
                 else:
                     install_log.write(f"[-] {file}\n")
                     error_log.write(f"[-] {file}\n{output}\n")
+        
+        install_log.write("*** Install finished ***\n")
 
     print(f"\nDone. See {INSTALL_LOG} and {ERROR_LOG}")
 
