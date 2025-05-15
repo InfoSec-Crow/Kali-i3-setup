@@ -1,11 +1,13 @@
 #!/bin/bash
 
+# Example Files
+mv example_files/ /home/kali/Documents/
+
 # install
 ## Go
 sudo apt install golang -y
 ## uv 
 curl -LsSf https://astral.sh/uv/install.sh | sh
-
 
 # Share Folder
 sudo mkdir /mnt/hgfs
