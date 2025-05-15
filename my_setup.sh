@@ -20,11 +20,13 @@ sudo chown kali:kali /etc/hosts
 sudo rm -r /home/kali/Music /home/kali/Pictures /home/kali/Templates /home/kali/Videos /home/kali/Public
 
 # CTF Repo
-cd /opt
-git clone https://github.com/InfoSec-Crow/CTF-Stuff
+git clone https://github.com/InfoSec-Crow/CTF-Stuff /opt/
 sh /opt/CTF-Stuff/symlink.sh
 
-# tmux plugins
+# tmux
+mkdir -p ~/.tmux
+mkdir -p ~/.tmux/plugins
+cp .config/tmux/.tmux.conf ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/tmux-plugins/tmux-sensible ~/.tmux/plugins/tmux-sensible
 git clone https://github.com/tmux-plugins/tmux-logging ~/.tmux/plugins/tmux-logging
