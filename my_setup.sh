@@ -13,15 +13,16 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 sudo mkdir /mnt/hgfs
 sudo sh -c "echo 'vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other,_netdev   0   0' >> /etc/fstab"
 
+# Files & Folders
+sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
+sudo chown kali:kali /opt 
+sudo chown kali:kali /etc/hosts
+sudo rm -r /home/kali/Music /home/kali/Pictures /home/kali/Templates /home/kali/Videos /home/kali/Public
+
 # CTF Repo
 cd /opt
 git clone https://github.com/InfoSec-Crow/CTF-Stuff
 sh /opt/CTF-Stuff/symlink.sh
-
-# Folders
-chown kali:kali /opt 
-chown kali:kali /etc/hosts
-rm -r /home/kali/Music /home/kali/Pictures /home/kali/Templates /home/kali/Videos /home/kali/Public
 
 # tmux plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
