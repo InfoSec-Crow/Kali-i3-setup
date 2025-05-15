@@ -35,13 +35,10 @@ cd ../..
 
 pip3 install pywal --break-system-packages
 
-mkdir -p ~/.tmux
-mkdir -p ~/.tmux/plugins
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/compton
 mkdir -p ~/.config/rofi
 mkdir -p ~/.config/alacritty
-cp .config/tmux/.tmux.conf ~/.tmux.conf
 cp .config/i3/config ~/.config/i3/config
 cp .config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 cp .config/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
