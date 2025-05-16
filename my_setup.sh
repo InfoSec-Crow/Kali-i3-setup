@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update
+
 # Example Files
 mv example_files/ /home/kali/Documents/
 
