@@ -26,21 +26,19 @@ def run_scripts(script_dir):
 
                 output = ""
                 for line in process.stdout:
-                    print(line, end='')
-                    install_log.write(line)
-                    install_log.flush()
-                    output += line
+                    print(line, end='')  # Nur Terminal ausgeben
+                    output += line       # Aber für Fehlerlog merken
 
                 process.wait()
                 
                 if process.returncode == 0:
                     install_log.write(f"[+] {file}\n")
-                    install_log.flush()
                 else:
                     install_log.write(f"[-] {file}\n")
-                    install_log.flush()
                     error_log.write(f"[-] {file}\n{output}\n")
-                    error_log.flush()
+
+                install_log.flush()
+                error_log.flush()
         
         install_log.write("*** Install finished ***\n")
         install_log.flush()
