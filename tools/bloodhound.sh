@@ -1,7 +1,9 @@
 #!/bin/bash
 
-sudo apt install bloodhound -y
-sudo apt remove bloodhound -y
+sudo apt install openjdk-17-jre -y
+wget -O - https://debian.neo4j.com/neotechnology.gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/neo4j-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/neo4j-archive-keyring.gpg] https://debian.neo4j.com stable 5" | sudo tee /etc/apt/sources.list.d/neo4j.list
+sudo apt install neo4j -y
 
 cd /opt
 wget https://github.com/BloodHoundAD/BloodHound/releases/latest/download/BloodHound-linux-x64.zip
