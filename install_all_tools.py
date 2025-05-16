@@ -12,13 +12,11 @@ def run_scripts(script_dir):
             if file.endswith(".sh"):
                 script_path = os.path.join(script_dir, file)
                 
-                # Log: Welche Datei gerade gestartet wird
                 running_msg = f"Running {file} ...\n"
                 print(f"\n--- {running_msg.strip()} ---")
                 install_log.write(running_msg)
                 install_log.flush()
 
-                # Skript ausführen
                 process = subprocess.Popen(
                     ["bash", script_path],
                     stdout=subprocess.PIPE,
@@ -35,7 +33,6 @@ def run_scripts(script_dir):
 
                 process.wait()
                 
-                # Erfolg oder Fehler loggen
                 if process.returncode == 0:
                     install_log.write(f"[+] {file}\n")
                     install_log.flush()
