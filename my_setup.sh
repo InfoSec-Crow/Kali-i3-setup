@@ -19,7 +19,7 @@ sudo sh -c "echo 'vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other,_netdev   0   
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 sudo chown kali:kali /opt 
 sudo chown kali:kali /etc/hosts
-sudo rm -r /home/kali/Music /home/kali/Pictures /home/kali/Templates /home/kali/Videos /home/kali/Public
+sudo rm -r /home/kali/Music /home/kali/Templates /home/kali/Videos /home/kali/Public
 
 # CTF Repo
 git clone https://github.com/InfoSec-Crow/CTF-Stuff /opt/CTF-Stuff
