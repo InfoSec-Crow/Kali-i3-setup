@@ -35,3 +35,5 @@ git clone https://github.com/tmux-plugins/tmux-logging ~/.tmux/plugins/tmux-logg
 git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect
 git clone https://github.com/tmux-plugins/tmux-yank ~/.tmux/plugins/tmux-yank
 
+# locate error fix
+sudo updatedb
