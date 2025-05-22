@@ -8,6 +8,8 @@ sudo sh -c "echo 'vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other,_netdev   0   
 
 # Files & Folders
 sudo rm -r /home/kali/Music /home/kali/Templates /home/kali/Videos /home/kali/Public
+sudo chown kali:kali /etc/hosts
+sudo chwon kali:kali /etc/krb5.conf
 
 # tmux
 mkdir -p ~/.tmux
