@@ -2,6 +2,9 @@
 
 sudo apt update
 
+# Kerberos
+sudo apt install krb5-user -y
+
 # Example Files
 mv example_files/ /home/kali/Documents/
 
