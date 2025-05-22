@@ -16,8 +16,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Files & Folders
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
-sudo chown kali:kali /opt 
-sudo chown kali:kali /etc/hosts
+sudo chown kali:kali /opt
 
 # CTF Repo
 git clone https://github.com/InfoSec-Crow/CTF-Stuff /opt/CTF-Stuff
