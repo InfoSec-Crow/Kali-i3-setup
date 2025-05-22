@@ -4,6 +4,8 @@ sudo apt update
 
 # Kerberos
 sudo apt install krb5-user -y
+sudo apt install ntpdate -y
+sudo timedatectl set-ntp false
 
 # Example Files
 mv example_files/ /home/kali/Documents/
