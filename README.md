@@ -40,3 +40,6 @@ Logs progress in `install.log` and errors in `errors.log`.
 * BloodHound (neo4j creds)
 * Share folder
 
+## Firefox
+* `about:config`
+* `browser.fixup.domainsuffixwhitelist.htb` set this to `true`
