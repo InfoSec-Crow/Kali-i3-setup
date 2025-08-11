@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://drive.google.com/uc?export=view&id=1d48QDD_fTJ4CmHBAuNokTXABvfRCgD7v" width="300" style="display:block; margin:0 auto;">
+</p>
 # Setup automatically
 ## Update + Upgrade
 ```
