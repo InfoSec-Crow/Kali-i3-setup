@@ -30,6 +30,12 @@ Add some programs, plugins etc.
 ```
 sh my_setup.sh
 ```
+Set login-screen wallpaper
+```
+sudo nano /etc/lightdm/lightdm-gtk-greeter.conf # in background = <path>
+
+sudo systemctl restart lightdm # reset
+```
 
 ## Install tools
 ```
